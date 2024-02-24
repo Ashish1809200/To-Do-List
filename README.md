@@ -10,7 +10,7 @@
 ```bash
     yarn install
  ```
- - To Start the Project Run the Below command
+ - To Start the Project Run the below command
  ```bash
     yarn dev
  ```
