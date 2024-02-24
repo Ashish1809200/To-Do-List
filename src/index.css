@@ -1,0 +1,59 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+.to-do-list {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h1{
+  color: white;
+}
+button{
+ font-size: 1.5rem;
+ font-weight: bold;
+ padding: 10px 20px;
+ cursor: pointer;
+ color: white;
+ border: none;
+ margin: 5px;
+ border-radius: 10px;
+ transition: background-color 0.5s ease;
+}
+.add-btn{
+  background-color: hsl(125, 47%, 54%);
+}
+.add-btn:hover{
+  background-color: hsl(125,47%,44%);
+}
+.delete-btn{
+  background-color: hsl(10, 90%, 50%);
+}
+.delete-btn:hover{
+  background-color: hsl(10, 90%, 40%);
+}
+.move-btn{
+  background-color: hsl(192, 90%, 50%);
+}
+.move-btn:hover{
+  background-color: hsl(192, 90%, 40%);
+}
+
+input[type="text"]{
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0, 80%,0.5);
+  border-radius: 10px;
+  color: hsla(0, 0, 0%,0.5);
+}
+li{
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 97%);
+  border: 3px solid hsla(0,0%,85%,0.75);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.text{
+  flex:1;
+}
